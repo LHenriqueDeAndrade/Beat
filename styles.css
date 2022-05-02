@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+  max-width:1360px;
+  width:1200px;  
+  margin:auto;
+  height:400px;  
+  background-color:#129799;
+}
+
+.ulone {    
+  display:flex;  
+  align-items:top;
+  justify-content:space-evenly;
+  position:relative;
+  top:10px;
+  list-style:none;
+  height:80px;
+}
+
+.ultwo {    
+  display:flex;  
+  align-items:bottom;
+  justify-content:space-evenly;
+  list-style:none;
+  position:relative;
+  top:70px;  
+}
+
+.secone {
+  height:250px;  
+  height:200px;  
+}
+
+li {
+  color:white;
+}
+
+p {
+  color:white;
+  font-size:50px;
+  position:relative;
+  top:70px;
+  left:45px;
+}
+
+.imgone {
+  display:flex;
+  align-items:top;
+  justify-content:flex-end;
+  position:relative;
+  right:-500px;
+  top:-130px;
+}
+
+main {
+    max-width:1360px;
+    width:1200px;
+    height:1000px;
+    margin:auto;
+    background-color:#FFA185;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+h1 {
+  color:white;
+  position:relative;
+  right:450px;
+}
+
+.ptwo {
+  font-size:33px;
+  color:black;
+  position:relative;
+  top:30px;
+  left:20px;
+}
+
+.sectwo {  
+  flex-wrap:wrap;
+  display:flex;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: center;
+  width:80%;
+  height:70%;  
+}
+
+.photos {
+    width:440px;
+    height:300px;    
+}
+
+.footone{
+    background-color:#129799;
+    height: 20vh;
+    max-width:1360px;
+    width:1200px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.footone section{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: space-between;
+    height: 20vh;
+    align-items: center;
+    width: 20%;
+    justify-content: space-evenly;    
+}
+
+.footone img{
+    width:3vw;
+}
+
+.ftr {
+  display:flex;
+  justify-content: space-between;  
+  list-style:none;
+  position:relative;
+  right:50px;  
+}
+
+.final {
+  display:flex;
+  flex-direction: space-between;
+  justify-content: space-around;
+  margin-left:100px;
+  width:100px;
+}
+
